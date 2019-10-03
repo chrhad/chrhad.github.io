@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #DDD;
+}
+
+.listab td {
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+}
+
+#wrapper {
+	box-shadow: 0px 0px 3px 3px rgb(85,85,85);
+	margin: 5px 0px;
+}
+
+#banner {
+	color: rgb(55,55,55);
+	background-color: rgb(192,224,238);
+	margin: 0px;
+	padding: 2px 15px 1px 15px;
+}
+
+#virtualline {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/line.png);
+	background-repeat:repeat;
+	height: 5px;
+}
+
+#nav {
+	background-color: rgb(128,220,238);
+	margin: 0px
+}
+
+#nav ul {
+	list-style: none outside none;
+	margin: 0px;
+	padding: 0px 7px;
+	height: 32px;
+}
+
+#nav ul li {
+	display: inline;
+	float: left;
+}
+
+#nav a:link, #nav a:visited {
+	display: block;
+	float: left;
+	line-height: 32px;
+	padding: 0px 8px;
+	font-size: 16px;
+}
+
+#page {
+	background-color:rgb(255,255,255);
+	overflow:auto;
+	padding:15px 0;
+}
+
+#content {
+	padding: 0px;
+	margin: 0px 15px;
+}
+
+#sidebar {
+	min-width:180px;
+	float: right;
+	background-color:#ACE;
+	border: 1px solid #E5E5E5;
+	margin-top: 0;
+	margin-right: 2px;
+	margin-bottom: 0;
+	margin-left: 15px;
+}
+
+#fac_photo {
+	background-color:#688;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding:10px;
+}
